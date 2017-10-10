@@ -4,15 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 	Scanner in=new Scanner(System.in);
-        int x=in.nextInt();
+        double x=in.nextInt();
         int n=1;
         int pow=-1;
-        double s=0,t=1;
-        while(Math.abs(t)>Math.sin(x)){
-            s+=t;
-            t*=1.0*pow*x*x/(2*n+1);
+        double s=x,eps=0.0001;
+        while(Math.abs(s)>eps){
+            s*=1.0*pow*x*x/(2*n+1);
             n++;
-            pow=-1;
+            pow=-pow;
         }
         System.out.print(s);
     }
