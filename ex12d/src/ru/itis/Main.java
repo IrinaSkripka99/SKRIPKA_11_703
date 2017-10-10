@@ -3,18 +3,20 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	Scanner in=new Scanner(System.in);
+        Scanner in=new Scanner(System.in);
         double x=in.nextInt();
         int n=1;
-        int pow=1;
-        double s=x,eps=0.0001,t=1;
+        int pow=-1;
+        int p = 1;
+        double s=0,eps=0.0001,t=1;
         while(Math.abs(s)>eps){
-            t*=1.0*pow*x*x/(2*n+1);
+            p*=x*x;
+            t*=1.0*pow*p/2*n;
             n++;
             pow=-pow;
             s+=t;
         }
         System.out.print(s);
     }
-    }
+}
 
