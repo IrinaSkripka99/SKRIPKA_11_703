@@ -9,7 +9,7 @@ public class Main {
         int pow=1;
         double eps=0.0001,s=0,t=1;
         while(Math.abs(t)>eps){
-            t*=1.0*pow*x;
+            t*=1.0*pow*x;  // договаривались не копить степень в отдельной переменной
             pow=-pow;
             s+=t/n;
             n++;
