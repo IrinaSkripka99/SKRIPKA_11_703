@@ -1,4 +1,5 @@
 package ru.itis;
+
 import java.util.Scanner;
 
 public class Ex10 {
@@ -8,16 +9,22 @@ public class Ex10 {
         int x = in.nextInt();
         int k = 1;
         int fac = 1;
-        double sum = 1;
-        while (k <= n){
-            sum = sum + ((( Math.pow((-1), k)) * (Math.pow(x, 2 * k + 1))) / (double)(fac * ((2 * k) + 1)));
+        int pow1 = -1;
+        double t = x;
+
+        double sum = x;
+        while (k <= n) {
+            t = t * x * x * (2 * (k - 1) + 1) / (k * (2 * k + 1));
+            sum += pow1 * t;
             k++;
-            fac *= k;
+            pow1 *= -1;
+
         }
         System.out.println(sum);
-
     }
-    // не то, что я просила: 1) степень х, 2) подсчет факториала в отдельной переменной, 3) получение знака
+
+}
+
 
 
 }
