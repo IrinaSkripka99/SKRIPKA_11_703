@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class Ex14b {
         x = in.nextDouble();
         t = 1 /a;
         while (t >= eps) {
-            s += t * Math.log10(t * x);
+            s += t * Math.log10(t * x);//неверная логика
             t *= 1.0 * (1 / a);
             k++;
         }
