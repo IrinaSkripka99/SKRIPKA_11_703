@@ -1,10 +1,10 @@
-package ru.itis;
+package ru.itis;//+
 
 import java.util.Random;
 
 public class Ex11b {
     public static void main(String[] args) {
-        int n = 10;
+        int n = 10; //обычно так не принято
         int[] x = new int[n];
         int[] y = new int[n];
         int[] z = new int[n];
