@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 import java.util.Scanner;
 public class Main {
 
@@ -10,7 +10,7 @@ public class Main {
         double eps=0.0001,t=1,s=0;
         while(Math.abs(t)>eps){
             s+=t;
-            t*=((1.0*pow*x*x)/(2*n));
+            t*=((1.0*pow*x*x)/(2*n));//неверная формула
             n++;
             pow=-pow;
         }
