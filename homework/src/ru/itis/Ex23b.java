@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//+
 import java.util.Scanner;
 
 public class Ex23b {
@@ -15,7 +15,7 @@ public class Ex23b {
         while (v2 <= b) {
             sum = pow * v2 / step * Math.cos(v2 * x) * Math.cos(v2 * x);
             pow = -pow;
-            step *= 2;
+            step *= 2;// не очень хорошо
             v0 = v1;
             v1 = v2;
             v2 = v1 + v0;
