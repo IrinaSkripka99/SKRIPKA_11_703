@@ -16,6 +16,5 @@ public class Ex15 {
             n /= 10;
         }
         System.out.println(m);
-
     }
 }
