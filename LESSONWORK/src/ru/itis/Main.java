@@ -14,6 +14,7 @@ public class Main {
             b[i] = r.nextInt(20);
             s+=a[i]*b[i];
         }
+
     System.out.println(s);
     }
 }
