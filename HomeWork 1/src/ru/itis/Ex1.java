@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 import java.util.Random;
@@ -18,7 +18,7 @@ public class Ex1 {
         System.out.println();
         for (int i = 1; i < a.length; i++) {
             if (a[i] < m) {
-                m = a[i];
+                m = a[i];   //неверный алгоритм. Попробуйте прпустить массив типа 5, 5, 5, 4, 4, 4, 2, 2, 2, 1, 1, 1
             }
             if (a[i] == m) {
                 col++;
