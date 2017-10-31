@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 public class Ex8_1 {
     public static void main(String[] args) {
@@ -31,5 +31,5 @@ public class Ex8_1 {
         }
         return false;
     }
-}
+}   //а где решение задачи?
 
