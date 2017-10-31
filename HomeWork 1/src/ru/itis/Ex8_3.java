@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Random;
 
@@ -65,7 +65,7 @@ public class Ex8_3 {
             if (b2[i] == b1[i] && b2[i] == 1) {
                 System.out.print("0 ");
             } else {
-                System.out.print("0 ");
+                System.out.print("0 ");   //почему печатаем? Надо вектор формировать
             }
         }
 
