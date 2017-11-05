@@ -1,4 +1,5 @@
 3взжж
+
 public class Sem2 {
     public static void main(String[] args) {
         double z, eps = 1.8, e = 2.7182;
