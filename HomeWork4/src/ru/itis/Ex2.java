@@ -23,7 +23,7 @@ public class Ex2 {
         }
         System.out.println();
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+            for (int j = 0; j < n; j++) { //половина элементов на свалку
                 if (i >j)
                     a[i][j] = 0;
             }
