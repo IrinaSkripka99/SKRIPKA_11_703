@@ -13,7 +13,7 @@ public class Ex15b {
                 l = 1;
             }
         }
-        for (int i = a.length - 1; i < a.length; i++) {
+        for (int i = a.length - 1; i < a.length; i++) {//зачем здесь оператор цикла, который прорабатывает ровно 1 раз?
                 u[l - 1]++;
             }
         for (int i = 0; i < u.length; i++) {
