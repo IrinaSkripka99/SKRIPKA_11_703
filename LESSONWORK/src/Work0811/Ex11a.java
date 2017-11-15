@@ -1,4 +1,4 @@
-package ru.itis;
+package Work0811;
 
 import java.util.Random;
 
