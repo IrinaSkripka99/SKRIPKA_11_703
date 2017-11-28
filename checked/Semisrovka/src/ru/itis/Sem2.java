@@ -1,7 +1,8 @@
-3взжж
+package ru.itis;
+
 public class Sem2 {
     public static void main(String[] args) {
-        double z, eps = 1.8, e = 2.7182;
+        double u, eps = 1.8, e = 2.7182;
         int n = 14;
         double[] a = new double[n];
         double[] b = new double[n];
@@ -10,20 +11,21 @@ public class Sem2 {
         for (int i = 1; i < n; i++) {
             a[i] = Math.pow(e, -(a[i - 1] * a[i - 1] + 2 * b[i - 1] + 0.7));
             if (a[i - 1] < 0) {
-                z = Math.sin(a[i - 1]);
-                b[i] = z * z;
+                u = Math.sin(a[i - 1] + b[i - 1]);
+                b[i] = u * u;
             } else {
                 b[i] = Math.sin((1 + a[i - 1] - b[i - 1]) * b[i - 1]);
             }
         }
-        label:
         for (int i = 0; i < n; i++) {
-            for (int x = 0; x < n; x++) {
-                if (Math.abs(a[i] + b[x]) < eps) {
-                    System.out.print(a[i]+" ");
-                    break label;
+            boolean f = true;
+            for (int j = 0; j < n && f; j++) {
+                if (Math.abs(a[i] + b[j]) < eps) f = false;
+                if (!f) {
+                    System.out.println(a[i] + " ");
                 }
             }
+
         }
     }
 }
