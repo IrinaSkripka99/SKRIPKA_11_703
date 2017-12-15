@@ -1,4 +1,4 @@
-package ru.itis;
+package OOP052;
 
 public class Matrix2x2 {
     private double[][] matrix = new double[1][1];
