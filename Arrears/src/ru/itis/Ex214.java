@@ -1,5 +1,5 @@
 package ru.itis;
-
+//строки
 import java.util.Scanner;
 
 public class Ex214 {

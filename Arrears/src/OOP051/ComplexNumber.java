@@ -83,7 +83,7 @@ public class ComplexNumber {
         number.b = (this.b * a + this.a * b)/(b*b + a*a);
     }
 
-    public double lenght (){
+    public double length (){
         return Math.sqrt(a * a + b * b);
     }
     public double arg (){
@@ -91,8 +91,8 @@ public class ComplexNumber {
     }
     public ComplexNumber pow (double n){
         ComplexNumber complexNumber = new ComplexNumber();
-        complexNumber.a = Math.pow(Math.abs(this.lenght()),n) * Math.cos(this.arg()*n);
-        complexNumber.b = Math.pow(Math.abs(this.lenght()),n) * Math.sin(this.arg()*n);
+        complexNumber.a = Math.pow(Math.abs(this.length()),n) * Math.cos(this.arg()*n);
+        complexNumber.b = Math.pow(Math.abs(this.length()),n) * Math.sin(this.arg()*n);
         return complexNumber;
     }
     public boolean equals (ComplexNumber number){
