@@ -1,4 +1,4 @@
-package ru.itis;
+package stroki;
 //строки
 import java.util.Scanner;
 

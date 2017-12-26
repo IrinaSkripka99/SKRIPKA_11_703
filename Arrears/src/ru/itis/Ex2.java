@@ -1,6 +1,6 @@
 package ru.itis;
 
-//задачи на массивы
+//задачи на массивы 2
 public class Ex2 {
     public static void main(String[] args) {
         int[][] a = {{1, 2},
