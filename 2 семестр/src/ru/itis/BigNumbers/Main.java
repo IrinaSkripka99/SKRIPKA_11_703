@@ -9,6 +9,8 @@ public class Main {
         String str2 = sc.next();
         Number.makeEqualByLength(str1, str2);
         String sum = Number.summa(str1, str2);
+        String mul=Number.multiplication(str1,str2);
         System.out.println("Сумма чисел равна: " +'\n' + sum);
+        System.out.println("Их произведение: " +'\n' + mul);
     }
 }

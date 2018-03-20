@@ -38,7 +38,7 @@ public class Number {
                 result.insert(0, sum);
             }
         }
-        if (mind!= 0) {
+        if (mind != 0) {
             result.insert(0, mind);
         }
 
@@ -46,5 +46,38 @@ public class Number {
         return firstNumber;
     }
 
+    public static String multiplication(String a, String b) {
+        String firstNumber = a;
+        String secondNumber = b;
+        byte mind = 0;
+        StringBuilder result = new StringBuilder();
+        if (a.length() > b.length()) {
+            secondNumber = makeEqualByLength(a, b);
+        } else {
+            firstNumber = makeEqualByLength(a, b);
+        }
+        for (int i = secondNumber.length() - 1; i >= 0; i--) {
+            for (int j = firstNumber.length() - 1; j >= 0; j--) {
+                int sum = Character.getNumericValue(firstNumber.charAt(i)) * Character.getNumericValue(secondNumber.charAt(j)) + mind;
+                mind = 0;
+                if (sum <= 9) {
+                    result.insert(0, sum);
+                } else {
+                    sum %= 10;
+                    mind = 1;
+                    result.insert(0, sum);
+                }
+            }
+        }
+
+        if (mind != 0) {
+            result.insert(0, mind);
+        }
+
+
+        firstNumber = result.toString();
+
+        return firstNumber;
+    }
 
 }
