@@ -1,0 +1,75 @@
+package ru.itis.table.servlets;
+
+import lombok.SneakyThrows;
+import ru.itis.table.forms.UserForm;
+import ru.itis.table.localization.Localization;
+import ru.itis.table.repositories.UsersRepository;
+import ru.itis.table.repositories.UsersRepositoryJdbcImpl;
+import ru.itis.table.services.UsersService;
+import ru.itis.table.services.UsersServiceImpl;
+import ru.itis.table.transfer.UserDto;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.util.List;
+
+/**
+ * 01.10.2018
+ * SignUpServlet
+ *
+ * @author Sidikov Marsel (First Software Engineering Platform)
+ * @version v1.0
+ */
+@WebServlet("/signUp")
+public class SignUpServlet extends HttpServlet {
+
+    private static final String URL = "jdbc:postgresql://localhost:5432/postgres";
+    private static final String USER = "postgres";
+    private static final String PASSWORD = "qepiqooo12Q";
+
+
+    private UsersService service;
+
+    @Override
+    @SneakyThrows
+    public void init() throws ServletException {
+        Class.forName("org.postgresql.Driver");
+        Connection connection = DriverManager.getConnection(URL, USER, PASSWORD);
+        UsersRepository usersRepository = new UsersRepositoryJdbcImpl(connection);
+        service = new UsersServiceImpl(usersRepository);
+    }
+
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        List<UserDto> allUsers = service.getAllUsers();
+        request.setAttribute("users", allUsers);
+        request.getRequestDispatcher("jsp/signUp.jsp").forward(request, response);
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String email = request.getParameter("email");
+        String firstName = request.getParameter("firstName");
+        String lastName = request.getParameter("lastName");
+        String rawPassword = request.getParameter("password");
+
+        UserForm newUser = UserForm.builder()
+                .email(email)
+                .firstName(firstName)
+                .lastName(lastName)
+                .password(rawPassword)
+                .build();
+
+        service.register(newUser);
+        response.sendRedirect("/signIn");
+    }
+}
