@@ -15,7 +15,10 @@
 
   <link rel="icon" href="../img/icon.jpg">
   <link rel="js" href="../js/main.js>">
-
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -52,7 +55,7 @@
 
 
   <!--Спортивные 1 -->
-		<div class="ot" >
+		<div class="ot"  method="post" >
 	   	<img class="picture" src = "../img/sport1.jpg" alt="sport1" width="500px" height ="300px">
 		    <div class="right">
 		<h2> Веревочный парк «Паутина» </h2><br>
@@ -86,12 +89,13 @@
     <h3>Адрес: ул. Озеро Лебяжье, 3 (база отдыха Лебяжье)<br>
 Город: Казань<br>
 Контактные данные: +7 (843) 240-95-91</h3>
+                <button onclick="send(11)">Добавить в избранное</button>
 		    </div>
 		</div>
 
 
       <!--Спортивные 2 -->
-    		<div class="ot" >
+    		<div class="ot"  method="post">
     	   	<img class="picture" src = "../img/sport2.jpg" alt="sport2" width="500px" height ="300px">
     		    <div class="right">
     		<h2> Прокат катамаранов и лодок на Озере Кабан </h2><br>
@@ -113,11 +117,12 @@
 Город: Казань <br>
 Контактные данные: <br>
 Ближайшее метро: Площадь Габдуллы Тукая </h3>
+                    <button onclick="send(12)">Добавить в избранное</button>
     		    </div>
     		</div>
 
         <!--Спортивные 3 -->
-      		<div class="ot" >
+      		<div class="ot"  method="post">
       	   	<img class="picture" src = "../img/spor3.jpg" alt="sport3" width="500px" height ="300px">
       		    <div class="right">
       		<h2> Парк аттракционов "Кырлай" </h2><br>
@@ -188,11 +193,12 @@
 Город: Казань<br>
 Контактные данные: +7 (843) 562-47-62<br>
 Ближайшее метро: Козья слобода </h3>
+                    <button onclick="send(13)">Добавить в избранное</button>
       		    </div>
       		</div>
 
           <!--Спортивные 4 -->
-            <div class="ot" >
+            <div class="ot"  method="post" >
               <img class="picture" src = "../img/sport4.jpg" alt="sport4" width="500px" height ="300px">
                 <div class="right">
             <h2> Лыжная база в Горкинско-Ометьевском лесу </h2><br>
@@ -235,11 +241,12 @@
 Город: Казань<br>
 Контактные данные:<br>
 Ближайшее метро: Проспект Победы</h3><br>
+                    <button onclick="send(14)">Добавить в избранное</button>
                 </div>
             </div>
 
             <!--Спортивные 5 -->
-              <div class="ot" >
+              <div class="ot" method="post">
                 <img class="picture" src = "../img/sport5.jpg" alt="sport5" width="500px" height ="300px">
                   <div class="right">
               <h2>Аквапарк «Ривьера»</h2><br>
@@ -255,8 +262,24 @@
 Город: Казань<br>
 Контактные данные: +7 (843) 526-57-57<br>
 Ближайшее метро: Козья слобода</h3>
+                      <button onclick="send(15)">Добавить в избранное</button>
                   </div>
               </div>
   <br><br>
+  <div id="table">
+
+  </div>
+<script>
+    function send(productId) {
+        $.ajax({
+            type: 'post',
+            url: '/places',
+            data: {
+                productId: productId
+            }
+        })
+    }
+</script>
+
 </body>
 </html>

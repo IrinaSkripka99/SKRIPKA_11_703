@@ -35,7 +35,7 @@ public class UsersRepositoryJdbcTemplateImpl implements UsersRepository {
 
     //language=SQL
     private static final String SQL_SELECT_COOKIE =
-                    "SELECT book_user.id, name, password_hash FROM book_user,auth WHERE auth.user_id = book_user.id AND cookie_value = ?;";
+                    "SELECT book_user.id, name, password_hash FROM book_user,auth WHERE auth.book_user_id = book_user.id AND cookie_value = ?;";
 
     private RowMapper<User> userRowMapper = (resultSet, i) -> User.builder()
             .id(resultSet.getLong("id"))

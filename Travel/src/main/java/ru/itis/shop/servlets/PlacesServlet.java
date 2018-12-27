@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-@WebServlet("/products")
+@WebServlet("/places")
 public class PlacesServlet extends HttpServlet {
 
     /*private List<Integer> ids = new ArrayList<>();

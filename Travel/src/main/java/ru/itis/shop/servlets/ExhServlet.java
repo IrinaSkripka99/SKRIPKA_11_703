@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-@WebServlet("/exh")
+@WebServlet("/exhibitions")
 public class ExhServlet extends HttpServlet {
     private LovelyService lovelyService;
     private UsersService usersService;

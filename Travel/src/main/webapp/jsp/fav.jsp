@@ -19,6 +19,33 @@
   <link rel="js" href="../js/main.js>">
 
 </head>
+<script>
+    $.ajax({
+        type: 'get',
+        url: '/places',
+        data: {
+
+        }
+    }).done(function (data) {
+        let contentTableHTML = "<table>";
+        contentTableHTML += "<tr>" +
+            "<th>Номер</th>" +
+            "</tr>";
+        for (let i = 0; i < data.length; i++) {
+            contentTableHTML += "<tr>";
+            contentTableHTML += "<td>" + data[i].title + "</td>";
+            contentTableHTML += "<td>" + data[i].price + "</td>";
+            contentTableHTML += "<td>" + data[i].sum + "</td>";
+            contentTableHTML += "</tr>";
+        }
+        contentTableHTML += "</table>";
+        let contentTableDiv = document.getElementById("table");
+        contentTableDiv.innerHTML = contentTableHTML;
+    }).fail(function () {
+        alert("FAILe")
+    });
+
+</script>
 <body>
   <div id= "header">
 Kazan
@@ -46,5 +73,6 @@ Kazan
   </ul>
 </nav>
 <h1 class="reg">Избранное</h1>
+<div id="table"></div>
 </body>
 </html>
