@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="library">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.11">
+    <root id="1">
+      <ServerVersion>9.5.14</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="file_db">
+      <ObjectId>57360</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="3" parent="1" name="library">
+      <ObjectId>57344</ObjectId>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>25</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="4" parent="1" name="postgres">
+      <ObjectId>12373</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>25</IntrospectionStateNumber>
+    </database>
+    <role id="5" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="6" parent="1" name="user1">
+      <ObjectId>65559</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <ValidUntil>infinity</ValidUntil>
+    </role>
+    <schema id="7" parent="3" name="information_schema">
+      <ObjectId>12081</ObjectId>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="8" parent="3" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="9" parent="3" name="pg_temp_1">
+      <ObjectId>11816</ObjectId>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="10" parent="3" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="11" parent="3" name="pg_toast_temp_1">
+      <ObjectId>11817</ObjectId>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="12" parent="3" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <Owner>postgres</Owner>
+      <IntrospectionTimestamp>2018-10-05.00:22:50.872</IntrospectionTimestamp>
+      <IntrospectionStateNumber>360132</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="13" parent="3" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+    </access-method>
+    <access-method id="14" parent="3" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+    </access-method>
+    <access-method id="15" parent="3" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+    </access-method>
+    <access-method id="16" parent="3" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+    </access-method>
+    <access-method id="17" parent="3" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+    </access-method>
+    <access-method id="18" parent="3" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+    </access-method>
+    <sequence id="19" parent="12" name="book_id_seq">
+      <ObjectId>65614</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>360131</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="20" parent="12" name="order_id_seq">
+      <ObjectId>65601</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>360130</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="21" parent="12" name="user_id_seq">
+      <ObjectId>65593</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>360129</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <table id="22" parent="12" name="book">
+      <ObjectId>65616</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>360132</StateNumber>
+    </table>
+    <table id="23" parent="12" name="book_order">
+      <ObjectId>65622</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>360132</StateNumber>
+    </table>
+    <table id="24" parent="12" name="order">
+      <ObjectId>65603</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>360132</StateNumber>
+    </table>
+    <table id="25" parent="12" name="user">
+      <ObjectId>65595</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>360130</StateNumber>
+    </table>
+    <column id="26" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>360131</StateNumber>
+      <DefaultExpression>nextval(&apos;book_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>book_id_seq</SequenceName>
+    </column>
+    <column id="27" parent="22" name="name">
+      <Position>2</Position>
+      <DataType>varchar(70)|0s</DataType>
+      <StateNumber>360131</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="28" parent="22" name="author">
+      <Position>3</Position>
+      <DataType>varchar(70)|0s</DataType>
+      <StateNumber>360131</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="29" parent="22" name="year">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>360131</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="30" parent="22" name="book_pkey">
+      <ObjectId>65620</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="31" parent="22" name="book_pkey">
+      <ObjectId>65621</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>book_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="32" parent="23" name="book_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>360132</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="33" parent="23" name="order_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>360132</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <foreign-key id="34" parent="23" name="book_order_book_id_fkey">
+      <ObjectId>65625</ObjectId>
+      <ColNames>book_id</ColNames>
+      <RefTableId>65616</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="35" parent="23" name="book_order_order_id_fkey">
+      <ObjectId>65630</ObjectId>
+      <ColNames>order_id</ColNames>
+      <RefTableId>65603</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>order</RefTableName>
+      <RefKeyName>order_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="36" parent="24" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>360130</StateNumber>
+      <DefaultExpression>nextval(&apos;order_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>order_id_seq</SequenceName>
+    </column>
+    <column id="37" parent="24" name="date">
+      <Position>2</Position>
+      <DataType>timestamp|0s</DataType>
+      <StateNumber>360130</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="38" parent="24" name="user_id">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>360130</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="39" parent="24" name="order_pkey">
+      <ObjectId>65607</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="40" parent="24" name="order_pkey">
+      <ObjectId>65608</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>order_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="41" parent="24" name="order_user_id_fkey">
+      <ObjectId>65609</ObjectId>
+      <ColNames>user_id</ColNames>
+      <RefTableId>65595</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user</RefTableName>
+      <RefKeyName>user_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="42" parent="25" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>360129</StateNumber>
+      <DefaultExpression>nextval(&apos;user_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>user_id_seq</SequenceName>
+    </column>
+    <column id="43" parent="25" name="name">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <StateNumber>360129</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="44" parent="25" name="surname">
+      <Position>3</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <StateNumber>360129</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="45" parent="25" name="number">
+      <Position>4</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <StateNumber>360129</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="46" parent="25" name="user_pkey">
+      <ObjectId>65599</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="47" parent="25" name="user_pkey">
+      <ObjectId>65600</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>user_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
