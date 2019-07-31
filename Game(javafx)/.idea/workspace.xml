@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Game.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFx_WolfAndEggs/JavaFx_WolfAndEggs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HealthPro.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SKRIPKA_11_703" beforeDir="false" afterPath="$PROJECT_DIR$/../../SKRIPKA_11_703" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Travel/src/main/java/ru/itis/shop/servlets/IndexServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Travel/src/main/java/ru/itis/shop/servlets/RestServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Travel/src/main/java/ru/itis/shop/servlets/SportServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/.idea/dataSources/27654149-7a42-4906-8408-f808adfe2d05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/.idea/dataSources/27654149-7a42-4906-8408-f808adfe2d05/storage_v2/_src_/database/shop.9to1AA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/.idea/dataSources/27654149-7a42-4906-8408-f808adfe2d05/storage_v2/_src_/database/shop.9to1AA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/shopTwo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/filter/AuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/forms/BasketForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/forms/SignInForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/forms/SignUpForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/models/Auth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/models/Basket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/models/BasketProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/models/GroupProducts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/models/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/repositories/AuthRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/repositories/AuthRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/repositories/BasketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/repositories/BasketRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/repositories/CrudRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/repositories/UsersRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/repositories/UsersRepositoryJdbcTemplateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/services/BasketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/services/BasketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/services/UsersService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/services/UsersServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/servlets/BasketServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/servlets/ProductsServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/servlets/SignInServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/java/ru/itis/shop/servlets/SignUpServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/css/shop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/img/login_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/img/login_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/img/login_btn_hov.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/img/reg_btn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/img/reg_btn_nov.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/img/text_input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/js/jquery-1.5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/js/jquery-ui-1.8.9.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/jsp/shop.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/jsp/signIn.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/src/main/webapp/jsp/signUp.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/filter/AuthFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/forms/BasketForm$BasketFormBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/forms/BasketForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/forms/SignInForm$SignInFormBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/forms/SignInForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/forms/SignUpForm$SignUpFormBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/forms/SignUpForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/models/Auth$AuthBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/models/Auth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/models/Basket$BasketBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/models/Basket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/models/BasketProduct$BasketProductBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/models/BasketProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/models/GroupProducts$GroupProductsBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/models/GroupProducts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/models/Product$ProductBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/models/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/models/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/repositories/AuthRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/repositories/AuthRepositoryImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/repositories/AuthRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/repositories/BasketRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/repositories/BasketRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/repositories/CrudRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/repositories/UsersRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/repositories/UsersRepositoryJdbcTemplateImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/services/BasketService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/services/BasketServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/services/UsersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/services/UsersServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/servlets/BasketServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/servlets/ProductsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/servlets/SignInServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/ru/itis/shop/servlets/SignUpServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/filter/AuthFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/forms/BasketForm$BasketFormBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/forms/BasketForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/forms/SignInForm$SignInFormBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/forms/SignInForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/forms/SignUpForm$SignUpFormBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/forms/SignUpForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/models/Auth$AuthBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/models/Auth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/models/Basket$BasketBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/models/Basket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/models/BasketProduct$BasketProductBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/models/BasketProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/models/GroupProducts$GroupProductsBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/models/GroupProducts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/models/Product$ProductBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/models/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/models/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/repositories/AuthRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/repositories/AuthRepositoryImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/repositories/AuthRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/repositories/BasketRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/repositories/BasketRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/repositories/CrudRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/repositories/UsersRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/repositories/UsersRepositoryJdbcTemplateImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/services/BasketService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/services/BasketServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/services/UsersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/services/UsersServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/servlets/BasketServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/servlets/ProductsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/servlets/SignInServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/shop/servlets/SignUpServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/postgresql-42.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-3.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/spring-asm-3.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-3.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.20.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.20.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-3.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.20.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-3.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/spring-security-crypto-3.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.20.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/css/shop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/img/login_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/img/login_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/img/login_btn_hov.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/img/reg_btn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/img/reg_btn_nov.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/img/text_input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/js/jquery-1.5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/js/jquery-ui-1.8.9.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/jsp/shop.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/jsp/signIn.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTwo/target/shop-1.0-SNAPSHOT/jsp/signUp.jsp" beforeDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2009403102">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.101" value="1" />
+          <entry key="project.open.time.105" value="1" />
+          <entry key="project.open.time.106" value="1" />
+          <entry key="project.open.time.115" value="1" />
+          <entry key="project.open.time.125" value="1" />
+          <entry key="project.open.time.135" value="1" />
+          <entry key="project.open.time.137" value="1" />
+          <entry key="project.open.time.138" value="1" />
+          <entry key="project.open.time.144" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.198" value="1" />
+          <entry key="project.open.time.318" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.67" value="2" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.79" value="1" />
+          <entry key="project.open.time.82" value="1" />
+          <entry key="project.open.time.90" value="1" />
+          <entry key="project.open.time.98" value="1" />
+          <entry key="project.opened" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="fxml" value="259" />
+          <entry key="java" value="6512" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="6512" />
+          <entry key="XML" value="259" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="fxml" value="15" />
+          <entry key="java" value="130" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="130" />
+          <entry key="XML" value="15" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/controllers/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="157" column="40" selection-start-line="157" selection-start-column="40" selection-end-line="157" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stage</find>
+      <find>hero</find>
+      <find>range</find>
+      <find>start</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Scene</replace>
+      <replace>scene</replace>
+      <replace>hare</replace>
+      <replace>start</replace>
+      <replace>end</replace>
+    </replaceStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/sample/ClientWindow.java" />
+        <option value="$PROJECT_DIR$/src/sample/server/ClientWindow.java" />
+        <option value="$PROJECT_DIR$/src/sample/server/ClientStart.java" />
+        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/helloMenu.fxml" />
+        <option value="$PROJECT_DIR$/../WolfAndEggs/WolfWithEggs/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/helloMenu.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/server/StartServer.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/sample/server/Client.java" />
+        <option value="$PROJECT_DIR$/src/sample/server/chat.java" />
+        <option value="$PROJECT_DIR$/src/sample/server/SocketClient.java" />
+        <option value="$PROJECT_DIR$/src/sample/server/Server.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/Controller.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>ThrowablePrintStackTrace</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552755077804" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../11-703/11-702/Themes/38. SpringMvcProject" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\SKRIPKA_11_703\4 семестр\Game\src\sample\controllers" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sample" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.controllers.Main" />
+      <module name="Game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="Game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.server.StartServer" />
+      <module name="Game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.server.chat" />
+      <module name="Game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.StartServer" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.chat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.StartServer" />
+        <item itemvalue="Application.chat" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1550858081695" duration="3021000" />
+      <workItem from="1551006410393" duration="671000" />
+      <workItem from="1551009982947" duration="617000" />
+      <workItem from="1551012981253" duration="20073000" />
+      <workItem from="1551099777574" duration="3946000" />
+      <workItem from="1551177926772" duration="13351000" />
+      <workItem from="1551343013263" duration="647000" />
+      <workItem from="1551565156192" duration="17082000" />
+      <workItem from="1551723334419" duration="5058000" />
+      <workItem from="1551790794424" duration="3784000" />
+      <workItem from="1551810929325" duration="611000" />
+      <workItem from="1551863076185" duration="3616000" />
+      <workItem from="1552311405651" duration="296000" />
+      <workItem from="1552389420843" duration="3698000" />
+      <workItem from="1552504988750" duration="4756000" />
+      <workItem from="1552511940221" duration="714000" />
+      <workItem from="1552548467788" duration="40000" />
+      <workItem from="1552548873132" duration="2243000" />
+      <workItem from="1552551849787" duration="332000" />
+      <workItem from="1552552491664" duration="1065000" />
+      <workItem from="1552748979800" duration="4865000" />
+      <workItem from="1552902081950" duration="173000" />
+      <workItem from="1553153673255" duration="1259000" />
+      <workItem from="1553512390092" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="93255000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1386" height="788" extended-state="1" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.35595778" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32977098" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30278233" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36988544" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.32977098" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.32569557" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24962178" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3290469" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.3290469" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32977098" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30278233" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36988544" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.32977098" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.32569557" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3290469" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.24962178" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sample/server/SocketClient.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="egg" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/server/ClientWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/server/ClientStart.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/event/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1201">
+          <caret line="554" selection-start-line="554" selection-end-line="554" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WolfAndEggs/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WolfAndEggs/WolfWithEggs/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WolfAndEggs/WolfWithEggs/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="58" column="43" lean-forward="true" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/beans/property/StringProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/scene/control/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/beans/binding/NumberExpressionBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/beans/binding/DoubleExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/scene/Parent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="1757" selection-start-line="1757" selection-end-line="1757" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/beans/property/ObjectPropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/css/StyleableDoubleProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/beans/property/DoublePropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/beans/property/DoubleProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/beans/property/ReadOnlyDoubleProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/beans/property/BooleanPropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="125" selection-start-line="32" selection-start-column="125" selection-end-line="32" selection-end-column="125" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/helloMenu.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="526" column="48" lean-forward="true" selection-start-line="526" selection-start-column="48" selection-end-line="526" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="2408" selection-start-line="2408" selection-end-line="2408" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/event/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="2501" selection-start-line="2501" selection-end-line="2501" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/animation/AnimationTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/beans/property/StringPropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/beans/binding/StringExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/scene/control/Labeled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="145" column="35" selection-start-line="145" selection-start-column="35" selection-end-line="145" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="5240" selection-start-line="5240" selection-end-line="5240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/server/chat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/server/SocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/server/StartServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="157" column="40" selection-start-line="157" selection-start-column="40" selection-end-line="157" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="497.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.HelloController">
+   <children>
+      <ImageView fitHeight="497.0" fitWidth="660.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/helloMenu.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="startButton" layoutX="66.0" layoutY="135.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="250.0" style="-fx-background-color: yellow;" text="Start" textAlignment="CENTER" textFill="#7ddd54" textOverrun="LEADING_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="Eras Bold ITC" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitButton" layoutX="66.0" layoutY="196.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="250.0" style="-fx-background-color: yellow;" text="Exit" textFill="#7ddd54">
+         <font>
+            <Font name="Eras Bold ITC" size="22.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="getName" layoutX="66.0" layoutY="168.0" prefHeight="43.0" prefWidth="250.0" promptText="Enter your name" visible="false" />
+      <Label fx:id="enterName" layoutX="96.0" layoutY="135.0" text="Enter your name :" textFill="#2c46da" visible="false">
+         <font>
+            <Font name="Eras Bold ITC" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="player1" layoutX="66.0" layoutY="135.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="250.0" style="-fx-background-color: yellow;" text="1 player" textAlignment="CENTER" textFill="#7ddd54" textOverrun="LEADING_WORD_ELLIPSIS" visible="false" wrapText="true">
+         <font>
+            <Font name="Eras Bold ITC" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="player2" layoutX="66.0" layoutY="196.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="250.0" style="-fx-background-color: yellow;" text="2 players" textAlignment="CENTER" textFill="#7ddd54" textOverrun="LEADING_WORD_ELLIPSIS" visible="false" wrapText="true">
+         <font>
+            <Font name="Eras Bold ITC" size="22.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="getName2" layoutX="66.0" layoutY="218.0" prefHeight="43.0" prefWidth="250.0" promptText="Enter your name" visible="false" />
+   </children>
+</AnchorPane>
