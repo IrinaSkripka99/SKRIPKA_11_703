@@ -1,8 +1,0 @@
-package oop;
-
-public class Chair extends Furniture {
-    public Chair(int height, int width, int depth, String material, int density) {
-        super(height, width, depth, material, density);
-    }
-
-}

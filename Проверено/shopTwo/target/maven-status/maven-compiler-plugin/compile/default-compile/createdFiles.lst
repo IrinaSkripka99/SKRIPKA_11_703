@@ -1,7 +1,0 @@
-ru\itis\shop\repositories\CrudRepository.class
-ru\itis\shop\forms\UserForm$UserFormBuilder.class
-ru\itis\shop\services\UsersService.class
-ru\itis\shop\services\UsersServiceImpl.class
-ru\itis\shop\repositories\UsersRepositoryJdbcTemplateImpl.class
-ru\itis\shop\repositories\UsersRepository.class
-ru\itis\shop\forms\UserForm.class
