@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="pane" alignment="center" hgap="10" prefHeight="497.0" prefWidth="660.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Controller">
+
+   <children>
+      <ImageView fitHeight="497.0" fitWidth="660.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/game.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hare" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" translateX="280.0" translateY="100.0" visible="false">
+         <image>
+            <Image url="@../img/hero.png" />
+         </image>
+   </ImageView>
+      <Button fx:id="startButton" mnemonicParsing="false" onAction="#handle" opacity="0.61" prefHeight="104.0" prefWidth="400.0" text="Click on me" textAlignment="CENTER" textFill="RED" textOverrun="LEADING_ELLIPSIS" translateX="145.0" underline="false">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+         <font>
+            <Font name="Comic Sans MS Bold" size="50.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="egg" fitHeight="40.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true" translateY="-140.0" visible="false">
+         <image>
+            <Image url="@../img/egg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="badEgg" fitHeight="40.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" translateY="165.0" visible="false">
+         <image>
+            <Image url="@../img/badEgg.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="scoreLabel" translateX="10.0" translateY="220.0" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS Bold" size="32.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#ab8d2b" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fx:id="life1" fitHeight="51.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" translateX="600.0" translateY="215.0">
+         <image>
+            <Image url="@../img/life.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="life2" fitHeight="51.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" translateX="530.0" translateY="215.0">
+         <image>
+            <Image url="@../img/life.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="life3" fitHeight="51.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" translateX="460.0" translateY="215.0">
+         <image>
+            <Image url="@../img/life.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="loser" fitHeight="178.0" fitWidth="259.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/loser.png" />
+         </image>
+      </ImageView>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
